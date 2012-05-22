@@ -1,7 +1,7 @@
 Description
 ===========
 
-Sets the /etc/motd file so you get a nice message like this upon login:
+Sets the `/etc/motd` file so you get a nice message like this upon login:
 
 ```
 *************************************************

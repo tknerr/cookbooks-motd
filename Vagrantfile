@@ -12,4 +12,14 @@ Vagrant::Config.run do |config|
      chef.add_recipe "vagrant-ohai"
      chef.add_recipe "motd"
   end
+
+  #config.vm.provision :chef_client do |chef|
+  #   chef.chef_server_url = "http://33.33.3.10:4000"
+  #   chef.validation_key_path = "W:\\repo\\my-chef-repo\\.chef\\validation.pem"
+  #   chef.environment = "_default"  
+  #
+  #   chef.add_recipe "vagrant-ohai"
+  #   chef.add_recipe "motd"
+  #end
+
 end

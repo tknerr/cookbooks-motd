@@ -2,7 +2,7 @@
 Vagrant::Config.run do |config|
 
   config.vm.box = "ubuntu-12.04-server-amd64-vagrant"
-  config.vm.box_url = "W:\\boxes\\ubuntu-12.04-server-amd64-vagrant.box"
+  config.vm.box_url = "http://dl.dropbox.com/u/13494216/ubuntu-12.04-server-amd64-vagrant.box"
 
   config.vm.host_name = "motd-vm"
   config.vm.network :hostonly, "192.168.33.10"
